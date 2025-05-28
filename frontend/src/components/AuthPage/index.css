@@ -1,0 +1,158 @@
+.container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.container.dark {
+  background-color: black;
+  color: white;
+}
+
+.left-row,
+.right-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.form-container {
+  border: solid 1px;
+  padding: 40px 30px;
+  border-right: none;
+  border-radius: 12px 0 0 12px;
+  margin-left: auto;
+  width: 80%;
+}
+
+.form-container.dark {
+  border: solid 1px white;
+  border-right: none;
+}
+
+.form-container h1 {
+  text-shadow: 0 1px 4px;
+  font-family: IBM Plex Mono;
+}
+
+.form-container p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.input-container {
+  margin: 18px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-size: 12px;
+}
+
+.input-container label span {
+  color: red;
+}
+
+.input-container input {
+  width: 100%;
+  max-width: 300px;
+  background: transparent;
+}
+
+.dark input {
+  color: white;
+  border: solid 1px white;
+}
+
+.password-container {
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  display: flex;
+}
+
+.show-password {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  outline: none;
+}
+
+.show-password.dark {
+  color: white;
+}
+
+.auth-form-submit-btn {
+  background: #c5198d;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 10px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.right-row {
+  background: #20438f;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.auth-page-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-page-card h1 {
+  margin: 20px;
+  font-family: IBM Plex Mono;
+}
+
+.auth-page-card p {
+  font-size: 14px;
+}
+
+.theme-toggle-btn-container {
+  background-color: white;
+  border-radius: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme-toggle-btn-container.dark {
+  background-color: black;
+  
+}
+
+.theme-toggle-btn-container.dark button {
+  color: white;
+}
+
+.active-btn {
+  background: #c5198d;
+  color: white;
+  border-radius: 100px;
+  padding: 8px 16px;
+}
+
+.register-btn {
+  color: blue;
+}

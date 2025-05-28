@@ -1,0 +1,32 @@
+.loading-container {
+  margin: auto;
+}
+
+.no-history {
+  width: 100%;
+  text-align: center;
+  color: #c5198d;
+}
+
+.no-history h1 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.no-history p {
+  margin: 20px;
+}
+
+.no-history-dash {
+  width: 100%;
+}
+
+.no-history-dash h1 {
+  font-family: monospace;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  color: #c5198d;
+}

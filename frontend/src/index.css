@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', 'IBM Plex Mono', monospace, 'Roboto';
+  padding: 0px;
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 16px;
+}
+
+input {
+  border-radius: 8px;
+  padding: 10px;
+  border: solid 1px #000000;
+  outline: none;
+}
+
+/* Universal style */
+
+.nav-col {
+  height: 100vh;
+  padding: 10px;
+}
+
+.right-col {
+  width: 100%;
+}
+
+.get-started-btn {
+  background: #c5198d;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+/* Style for the entire scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* For vertical scrollbar */
+  
+}
+
+/* Style for the scrollbar track (the background) */
+::-webkit-scrollbar-track {
+  background: transparent; /* Light gray background */
+  border-radius: 10px; /* Optional: rounded corners for the track */
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker gray thumb */
+  border-radius: 12px; /* Optional: rounded corners for the thumb */
+}
+
+/* On hover, make the thumb slightly darker */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,44 @@
+.chat-bubbles-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+}
+
+.chat-bubble {
+  border-radius: 12px;
+  padding: 10px;
+  margin: 16px 0;
+  font-size: 16px;
+  display: flex;
+}
+
+.user {
+  background-color: black;
+  color: white;
+  align-self: flex-end;
+}
+
+.ai {
+  background-color: white;
+  color: black;
+  line-height: 24px;
+  align-self: flex-start;
+}
+
+.ai-dark {
+  background-color: black;
+  color: white;
+}
+
+.user-dark {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.chat-bubble-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  margin-top: -6px;
+}
